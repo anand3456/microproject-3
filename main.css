@@ -1,0 +1,182 @@
+
+  *{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+body{
+  background: hsla(224, 26%, 31%, 1);
+  font-family: 'Spartan', sans-serif;
+}
+
+
+:root{
+background: hsla(224, 26%, 31%, 1);
+/* #### Keys */
+
+--Desaturated-dark: hsl(225, 21%, 49%);
+
+
+}
+._dark_cont_header
+ {
+  display: flex;
+  align-items: flex-end;
+}
+
+.container{
+width:536px;
+height:487px;
+  /*max-width: 440px;*/
+  margin: auto;
+}
+
+.cont_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.cont_header h1 {
+  color: white;
+}
+
+.display_result {
+  width:536px;
+  height:142px;
+  background: hsla(224, 35%, 15%, 1);
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  height: 80px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont_display_resultado p {
+  padding-right: 30px;
+}
+
+.second_box {width:536px;height:487px; background: hsla(225, 30%, 21%, 1);margin-top: 20px;border-radius: 8px;display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.linha_teclado {
+  display:flex;
+ 
+}
+
+.linha_teclado button {
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 1px var(--Grayish);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--Very-dark-desaturated);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linha_teclado button:hover {
+  box-shadow: 0px 4px 1px var(--Desaturated-dark);
+}
+
+button#btn_del {
+
+  background: var(--Desaturated-dark);
+  color: white;
+  box-shadow: 0px 4px 1px var(--Desaturated-dark2);
+  font-size: 22px;
+  width: 80px;
+  height: 50px;
+}
+
+#btn_del:hover{
+  box-shadow: 0px 4px 1px var(--Very-dark-desaturated2);
+}
+
+.linha_teclado_ultima button {
+  width: 180px;
+  height: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 1px var(--Grayish);
+  margin: 10px;
+}
+
+button#btn_reset {
+  width:222.4px;
+  height:60px;
+  background: var(--Desaturated-dark);
+  color: white;
+  box-shadow: 0px 4px 1px var(--Desaturated-dark2);
+  font-size: 22px;
+  cursor: pointer;
+}
+button#btn_reset:hover{
+  box-shadow: 0px 4px 1px var(--Very-dark-desaturated2);
+}
+
+button#btn_igual {
+  width:222.4px;
+  height:60px;
+  background: var(--Red);
+  color: white;
+  background: hsla(6, 64%, 50%, 1);
+  box-shadow: 0px 4px 1px var(--Dark_red);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* themes  */
+
+#_dark_title_themes{ color: white;
+}
+
+span#_dark_themes{color: white;
+}
+
+span#_dark_check{color: white;
+}
+
+._dark_cont_header h1{color: white;
+}
+
+.cont_display_resultado _dark{background: var(--Very-dark-desaturated2); color: white;
+}
+
+.cont_teclado _dark{ background: var(--Very-dark-desaturated1);
+}
+
+.linha_teclado _dark button{ box-shadow: 0px 4px 1px var(--Grayish);color: var(--Very-dark-desaturated);
+}
+
+.linha_teclado _dark button:hover{ box-shadow: 0px 4px 1px var(--Desaturated-dark);
+}
+
+button#btn_del _dark{background: var(--Desaturated-dark);color: white;box-shadow: 0px 4px 1px var(--Desaturated-dark2);
+}
+
+#btn_del _dark:hover{box-shadow: 0px 4px 1px var(--Very-dark-desaturated2);
+}
+
+.linha_teclado_ultima _dark button{ box-shadow: 0px 4px 1px var(--Grayish);
+}
+
+button#btn_reset _dark{ background: var(--Desaturated-dark); color: white; box-shadow: 0px 4px 1px var(--Desaturated-dark2);
+}
+
+button#btn_reset _dark:hover{box-shadow: 0px 4px 1px var(--Very-dark-desaturated2);
+}
+
+button#btn_igual _dark{ background: var(--Red); color: white; box-shadow: 0px 4px 1px var(--Dark_red);
+}
